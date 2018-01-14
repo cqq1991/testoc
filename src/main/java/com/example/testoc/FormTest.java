@@ -7,9 +7,8 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 import org.databene.benerator.anno.Source;
 import org.databene.feed4testng.FeedTest;
-import org.junit.Test;
-
-import junit.framework.Assert;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class FormTest extends  FeedTest{
 	@Test(dataProvider="feeder")
